@@ -9,7 +9,7 @@ function Card() {
     }, [])
 
     async function fetchData() {
-        let data = await fetch('http://localhost:3000/data');
+        let data = await fetch('https://cardprojectservice.onrender.com/data');
         let response = await data.json();
         setData(response);
     }
