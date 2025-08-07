@@ -7,17 +7,18 @@
 }
 
 .card {
-    height:20rem;
+    height: 20rem;
     width: 40rem;
     border: 1px black solid;
     display: flex;
     border-radius: 2rem;
+    overflow: hidden;
 }
 
 .photo {
     height: 100%;
     width: 100%;
-    background-color: rgb(228, 178, 188);
+    background: linear-gradient(135deg, #dcaaae, #ebbec8, #fae1e6);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -34,11 +35,10 @@
 }
 
 .data p {
-    margin: 1rem;
     margin: 0.5rem;
 }
 
-.name{
+.name {
     font-weight: 500;
-    
+
 }
